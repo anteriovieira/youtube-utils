@@ -3,6 +3,8 @@
   <h1 align="center">Youtube Utils</h1>
 </p>
 
+[Youtube Utils - Chrome Web Store](https://chrome.google.com/webstore/detail/dnimigkkkffldjkkbljcpofdmennohea/publish-accepted?authuser=0&hl=pt-BR)
+
 ## Features
 
 - It allows you to navigate through videos independently.
