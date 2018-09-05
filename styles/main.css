@@ -1,0 +1,21 @@
+#primary-inner {
+    height: 85vh;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#primary-inner::-webkit-scrollbar {
+    display: none;
+}
+
+#secondary-inner {
+    height: 85vh;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#secondary-inner::-webkit-scrollbar {
+    display: none;
+}
