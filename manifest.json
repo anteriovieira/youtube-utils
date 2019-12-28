@@ -4,13 +4,31 @@
     "description": "Utilities for youtube",
     "manifest_version": 2,
     "icons": {
-      "16": "icon-16.png",
-      "128": "icon-128.png"
+      "16": "icons/16x16.png",
+      "128": "icons/128x128.png"
     },
+    "devtools_page": "devtools-background.html",
+    "background": {
+      "scripts": [
+        "build/background.js"
+      ],
+      "persistent": false
+    },
+    "permissions": [
+      "http://*/*",
+      "https://*/*",
+      "file:///*",
+      "contextMenus",
+      "storage"
+    ],
     "content_scripts": [{
         "matches": [
             "https://www.youtube.com/*"
         ],
-        "css": ["styles/main.css"]
+        "css": ["styles/main.css"],
+        "js": [
+          "build/hook.js"
+        ],
+        "run_at": "document_start"
     }]
 }
