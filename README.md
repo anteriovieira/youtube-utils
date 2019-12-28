@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="vue-youtube" src="https://raw.githubusercontent.com/anteriovieira/youtube-utils/master/128x128.png" /> <br />
+  <img alt="vue-youtube" src="https://raw.githubusercontent.com/anteriovieira/youtube-utils/master/icons/128x128.png" /> <br />
   <h1 align="center">Youtube Utils</h1>
 </p>
 
